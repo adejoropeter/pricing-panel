@@ -61,6 +61,7 @@ body {
     min-height: 100vh;
 }
 
+
 .all {
     background-color: #fff;
     display: flex;
@@ -70,7 +71,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
 
 }
 
@@ -124,6 +125,7 @@ button {
 
 }
 
+
 .sub-2 button {
     background-color: #61abff;
     color: #fff;
@@ -142,6 +144,7 @@ button {
     border: 1px solid grey;
 }
 
+
 .sub-1 button:hover, .sub-3 button:hover {
     color: #fff;
     background-color: #61abff;
@@ -149,6 +152,10 @@ button {
     border: 1px solid #61abff;
 
 }
+
+
+
+
 
 @media (max-width:700px) {
     .all {
@@ -168,4 +175,8 @@ button {
         border-bottom: 1px solid grey;
         padding: 10px;
     }
+
+    
+    
+  
 }
